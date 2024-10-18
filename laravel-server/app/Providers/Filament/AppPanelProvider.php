@@ -30,6 +30,11 @@ class AppPanelProvider extends PanelProvider
             ->colors([
                 'primary' => Color::rgb('rgb(243, 160, 45)'),
             ])
+            ->navigationGroups([
+                'Job Management',
+                'Recruitment',
+                'Settings',
+            ])
             ->brandLogo('images/image.webp')
             ->brandLogoHeight('3rem')
             ->discoverResources(in: app_path('Filament/Resources'), for: 'App\\Filament\\Resources')
